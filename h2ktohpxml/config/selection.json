@@ -88,7 +88,7 @@
             "Triplex (non-MURB)": "single-family attached",
             "Apartment (non-MURB)": "apartment unit",
             "Row house, end unit": "single-family attached",
-            "Mobile Home": "single-family attached",
+            "Mobile Home": "single-family detached",
             "Row house, middle unit": "single-family attached"
         },
         "murb_map": {
