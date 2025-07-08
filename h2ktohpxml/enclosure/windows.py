@@ -81,7 +81,7 @@ def get_windows(h2k_windows, parent_type, model_data):
                     if has_overhang
                     else {}
                 ),
-                "FractionOperable": "0",
+                "FractionOperable": "1",
                 "AttachedToWall": {"@idref": f"{parent_type}{parent_id}"},
                 "extension": {"H2kLabel": f"{window_label}"},
             }
