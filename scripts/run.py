@@ -4,10 +4,14 @@ import sys
 import configparser
 from configparser import NoOptionError, NoSectionError
 
+# Add project root to path so we can import from src
+project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, project_root)
+
 from src.h2k_hpxml.analysis import annual
 
 config = configparser.ConfigParser()
-config.read("conversionconfig.ini")
+config.read(os.path.join(project_root, "conversionconfig.ini"))
 
 source_h2k_path = config.get("paths", "source_h2k_path")
 hpxml_os_path = config.get("paths", "hpxml_os_path")
