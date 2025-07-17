@@ -4,7 +4,7 @@ import sys
 import configparser
 from configparser import NoOptionError, NoSectionError
 
-from analysis import annual
+from src.h2k_hpxml.analysis import annual
 
 config = configparser.ConfigParser()
 config.read("conversionconfig.ini")

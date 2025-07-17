@@ -4,7 +4,7 @@
 Create a command-line interface (CLI) tool that analyzes building resiliency scenarios by examining clothing factors and HVAC performance during power outages and extreme weather conditions.
 
 ## Requirements
-* The code/cli should be contained in bin/resilence.py and leverage bin/h2k2hpxml.py and h2ktohpxml/h2ktohpxml.py
+* The code/cli should be contained in bin/resilence.py and leverage src/h2k_hpxml/cli/h2k2hpxml.py and src/h2k_hpxml/h2ktohpxml.py
 * Code should be written in python. 
 * Code should use the openstudio sdk to articulate the model scenarios as required.
 * OpenStudio Python Bindings are installed in the environment. 
@@ -172,7 +172,7 @@ output_path/
 
 ### Implementation Status: ✅ FULLY COMPLETED AND PRODUCTION READY
 
-The resilience CLI tool has been successfully implemented in `bin/resilience.py` and is fully functional with all requirements met, including the updated project folder structure and file organization.
+The resilience CLI tool has been successfully implemented in `src/h2k_hpxml/cli/resilience.py` and is fully functional with all requirements met, including the updated project folder structure and file organization.
 
 ### Key Implementation Details
 
@@ -256,10 +256,10 @@ examples/WizardHouse/                    # Project folder (H2K basename)
 **Test Commands:**
 ```bash
 # Model generation with updated project structure
-python bin/resilience.py examples/WizardHouse.h2k --output-path examples
+python src/h2k_hpxml/cli/resilience.py examples/WizardHouse.h2k --output-path examples
 
 # Full simulation execution with project folder organization
-python bin/resilience.py examples/WizardHouse.h2k --output-path examples --run-simulation
+python src/h2k_hpxml/cli/resilience.py examples/WizardHouse.h2k --output-path examples --run-simulation
 ```
 
 **Verified Outputs:**
@@ -368,20 +368,20 @@ python bin/resilience.py examples/WizardHouse.h2k --output-path examples --run-s
 
 **Basic usage (creates project folder structure):**
 ```bash
-python bin/resilience.py path/to/file.h2k
+python src/h2k_hpxml/cli/resilience.py path/to/file.h2k
 # Creates: output_directory/filename/
 # ✓ OpenStudio-HPXML validated at: /OpenStudio-HPXML/
 ```
 
 **With custom output location:**
 ```bash
-python bin/resilience.py path/to/file.h2k --output-path /custom/location
+python src/h2k_hpxml/cli/resilience.py path/to/file.h2k --output-path /custom/location
 # Creates: /custom/location/filename/
 ```
 
 **With custom parameters:**
 ```bash
-python bin/resilience.py examples/WizardHouse.h2k \
+python src/h2k_hpxml/cli/resilience.py examples/WizardHouse.h2k \
   --output-path examples \
   --outage-days 14 \
   --clothing-factor-summer 0.3 \
@@ -391,7 +391,7 @@ python bin/resilience.py examples/WizardHouse.h2k \
 
 **Full simulation execution:**
 ```bash
-python bin/resilience.py examples/WizardHouse.h2k \
+python src/h2k_hpxml/cli/resilience.py examples/WizardHouse.h2k \
   --output-path examples \
   --run-simulation
 # Creates: examples/WizardHouse/ with complete simulation results
@@ -399,13 +399,13 @@ python bin/resilience.py examples/WizardHouse.h2k \
 
 **Help and version:**
 ```bash
-python bin/resilience.py --help
-python bin/resilience.py --version
+python src/h2k_hpxml/cli/resilience.py --help
+python src/h2k_hpxml/cli/resilience.py --version
 ```
 
 **Error handling (when OpenStudio-HPXML unavailable):**
 ```bash
-python bin/resilience.py examples/WizardHouse.h2k
+python src/h2k_hpxml/cli/resilience.py examples/WizardHouse.h2k
 # Output: ERROR: OpenStudio-HPXML not found at /OpenStudio-HPXML/
 # Exit code: 1
 ```

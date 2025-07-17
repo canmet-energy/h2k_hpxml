@@ -29,7 +29,7 @@ def run_h2k_workflow(input_path: str, output_dir: str, debug: bool = True) -> Tu
     try:
         # Construct the command
         cmd = [
-            "python", "bin/h2k2hpxml.py", "run",
+            "python", "src/h2k_hpxml/cli/h2k2hpxml.py", "run",
             "--input_path", input_path,
             "--output_path", output_dir
         ]

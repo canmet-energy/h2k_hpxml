@@ -17,16 +17,23 @@ This is the H2K to HPXML to EnergyPlus initiative project, which translates Cana
 ### Translation and Simulation
 - `python main.py` - Run H2K to HPXML translation using conversionconfig.ini
 - `python run.py` - Run OpenStudio-HPXML simulation workflow
-- `python bin/h2k2hpxml.py <h2k_file>` - CLI tool for H2K to HPXML conversion
-- `python bin/resilience.py <h2k_file> [options]` - Resilience analysis tool
+- `python src/h2k_hpxml/cli/h2k2hpxml.py <h2k_file>` - CLI tool for H2K to HPXML conversion
+- `python src/h2k_hpxml/cli/resilience.py <h2k_file> [options]` - Resilience analysis tool
 
 ### Environment Setup
-- `pip install -r requirements.txt` - Install Python dependencies
+- `pip install -e .` - Install package in development mode (recommended)
+- `pip install -r requirements.txt` - Install Python dependencies (legacy)
 - Requires OpenStudio Python bindings and OpenStudio-HPXML at `/OpenStudio-HPXML/`
+
+### Package Structure
+The project uses a modern Python src layout:
+- `src/h2k_hpxml/` - Main package directory
+- `pyproject.toml` - Modern build configuration with console script entry points
+- Console scripts available after installation: `h2k2hpxml`, `h2k-resilience`
 
 ## Code Architecture
 
-### Core Translation Module (`h2ktohpxml/`)
+### Core Translation Module (`src/h2k_hpxml/`)
 - **`h2ktohpxml.py`** - Main translation engine that converts H2K XML strings to HPXML
 - **`Model.py`** - Model handling and data structures
 - **`utils/`** - Utility modules for weather, units, H2K parsing, energy calculations
@@ -44,7 +51,7 @@ This is the H2K to HPXML to EnergyPlus initiative project, which translates Cana
 
 ### Analysis Tools
 - **`analysis/`** - Annual energy analysis and comparison utilities
-- **`bin/resilience.py`** - Specialized CLI tool for building resilience analysis with 4 scenarios:
+- **`src/h2k_hpxml/cli/resilience.py`** - Specialized CLI tool for building resilience analysis with 4 scenarios:
   - Power outage + normal weather
   - Power outage + extreme weather  
   - Thermal autonomy + normal weather
@@ -60,7 +67,7 @@ This is the H2K to HPXML to EnergyPlus initiative project, which translates Cana
 ### Dependencies
 - Project requires OpenStudio Python bindings
 - OpenStudio-HPXML must be installed at `/OpenStudio-HPXML/`
-- Weather files are automatically downloaded to `h2ktohpxml/utils/` when needed
+- Weather files are automatically downloaded to `src/h2k_hpxml/utils/` when needed
 
 ### Translation Process
 1. H2K XML files are parsed using xmltodict
@@ -84,8 +91,8 @@ This is the H2K to HPXML to EnergyPlus initiative project, which translates Cana
 ### Weather Data
 - Supports both CWEC (typical) and EWY (extreme) weather files
 - Historic weather library with automatic downloads
-- Weather files stored in `h2ktohpxml/utils/` with file locking
+- Weather files stored in `src/h2k_hpxml/utils/` with file locking
 
 ### CLI Tools
-- `bin/h2k2hpxml.py` - Basic conversion tool
-- `bin/resilience.py` - Advanced resilience analysis with clothing factors and HVAC scenarios
+- `src/h2k_hpxml/cli/h2k2hpxml.py` - Basic conversion tool
+- `src/h2k_hpxml/cli/resilience.py` - Advanced resilience analysis with clothing factors and HVAC scenarios

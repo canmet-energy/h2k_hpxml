@@ -5,8 +5,8 @@ import configparser
 from configparser import NoOptionError, NoSectionError
 
 
-from h2ktohpxml import h2ktohpxml
-from analysis import annual
+from src.h2k_hpxml import h2ktohpxml
+from src.h2k_hpxml.analysis import annual
 
 config = configparser.ConfigParser()
 config.read("conversionconfig.ini")

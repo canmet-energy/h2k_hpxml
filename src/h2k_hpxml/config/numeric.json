@@ -1,0 +1,1220 @@
+{
+    "house_volume": {
+        "units": {
+            "unit_type": "volume",
+            "h2k_units": "m3",
+            "hpxml_units": "ft3"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "HouseFile,House,NaturalAirInfiltration,Specifications,House,@volume",
+            "hpxml": "HPXML,Building,BuildingDetails,Enclosure,AirInfiltration,AirInfiltrationMeasurement,InfiltrationVolume"
+        }
+    },
+    "air_leakage_ach": {
+        "decimals": 2,
+        "address": {
+            "h2k": "HouseFile,House,NaturalAirInfiltration,Specifications,BlowerTest,@airChangeRate",
+            "hpxml": "HPXML,Building,BuildingDetails,Enclosure,AirInfiltration,AirInfiltrationMeasurement,BuildingAirLeakage,AirLeakage"
+        }
+    },
+    "ag_heated_floor_area":{
+        "units": {
+            "unit_type": "area",
+            "h2k_units": "m2",
+            "hpxml_units": "ft2"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "HouseFile,House,Specifications,HeatedFloorArea,@aboveGrade",
+            "hpxml": "HPXML,Building,BuildingDetails,BuildingSummary,BuildingConstruction,ConditionedFloorArea"
+        }
+    },
+    "bg_heated_floor_area":{
+        "units": {
+            "unit_type": "area",
+            "h2k_units": "m2",
+            "hpxml_units": "ft2"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "HouseFile,House,Specifications,HeatedFloorArea,@belowGrade",
+            "hpxml": "HPXML,Building,BuildingDetails,BuildingSummary,BuildingConstruction,ConditionedFloorArea"
+        }
+    },
+    "common_space_area":{
+        "units": {
+            "unit_type": "area",
+            "h2k_units": "m2",
+            "hpxml_units": "ft2"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "HouseFile,House,Specifications,HeatedFloorArea,@commonSpace",
+            "hpxml": "~HPXML,Building,BuildingDetails,BuildingSummary,BuildingConstruction,ConditionedFloorArea"
+        }
+    },
+    "non_res_unit_area":{
+        "units": {
+            "unit_type": "area",
+            "h2k_units": "m2",
+            "hpxml_units": "ft2"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "HouseFile,House,Specifications,HeatedFloorArea,@nonResUnits",
+            "hpxml": "~HPXML,Building,BuildingDetails,BuildingSummary,BuildingConstruction,ConditionedFloorArea"
+        }
+    },
+    "num_bedrooms": {
+        "decimals": 0,
+        "address": {
+            "h2k": "HouseFile,House,Ventilation,Rooms,@bedrooms",
+            "hpxml": "HPXML,Building,BuildingDetails,BuildingSummary,BuildingConstruction,NumberofBedrooms"
+        }
+    },
+    "num_bathrooms": {
+        "decimals": 0,
+        "address": {
+            "h2k": "HouseFile,House,Ventilation,Rooms,@bathrooms",
+            "hpxml": "HPXML,Building,BuildingDetails,BuildingSummary,BuildingConstruction,NumberofBathrooms"
+        }
+    },
+    "wall_absorptance": {
+        "decimals": 2,
+        "address": {
+            "h2k": "HouseFile,House,Specifications,WallColour,@value",
+            "hpxml": "HPXML,Building,BuildingDetails,Enclosure,Walls,Wall,SolarAbsorptance"
+        }
+    },
+    "wall_r_value": {
+        "units": {
+            "unit_type": "thermal_resistance",
+            "h2k_units": "RSI",
+            "hpxml_units": "R"
+        },
+        "decimals": 4,
+        "address": {
+            "h2k": "Construction,Type,@rValue",
+            "hpxml": "HPXML,Building,BuildingDetails,Enclosure,Walls,Wall,Insulation,AssemblyEffectiveRValue"
+        }
+    },
+    "wall_height": {
+        "units": {
+            "unit_type": "length",
+            "h2k_units": "m",
+            "hpxml_units": "ft"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "Measurements,@height",
+            "hpxml": "~HPXML,Building,BuildingDetails,Enclosure,Walls,Wall,Area"
+        }
+    },
+    "wall_perimeter": {
+        "units": {
+            "unit_type": "length",
+            "h2k_units": "m",
+            "hpxml_units": "ft"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "Measurements,@perimeter",
+            "hpxml": "~HPXML,Building,BuildingDetails,Enclosure,Walls,Wall,Area"
+        }
+    },
+    "exp_floor_r_value": {
+        "units": {
+            "unit_type": "thermal_resistance",
+            "h2k_units": "RSI",
+            "hpxml_units": "R"
+        },
+        "decimals": 4,
+        "address": {
+            "h2k": "Construction,Type,@rValue",
+            "hpxml": "HPXML,Building,BuildingDetails,Enclosure,Floors,Floor,Insulation,AssemblyEffectiveRValue"
+        }
+    },
+    "exp_floor_area": {
+        "units": {
+            "unit_type": "area",
+            "h2k_units": "m2",
+            "hpxml_units": "ft2"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "Measurements,@area",
+            "hpxml": "HPXML,Building,BuildingDetails,Enclosure,Floors,Floor,Area"
+        }
+    },
+    "door_r_value": {
+        "units": {
+            "unit_type": "thermal_resistance",
+            "h2k_units": "RSI",
+            "hpxml_units": "R"
+        },
+        "decimals": 4,
+        "address": {
+            "h2k": "Construction,Type,@value",
+            "hpxml": "HPXML,Building,BuildingDetails,Enclosure,Doors,Door,RValue"
+        }
+    },
+    "door_height": {
+        "units": {
+            "unit_type": "length",
+            "h2k_units": "m",
+            "hpxml_units": "ft"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "Measurements,@height",
+            "hpxml": "~HPXML,Building,BuildingDetails,Enclosure,Doors,Door,Area"
+        }
+    },
+    "door_width": {
+        "units": {
+            "unit_type": "length",
+            "h2k_units": "m",
+            "hpxml_units": "ft"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "Measurements,@width",
+            "hpxml": "~HPXML,Building,BuildingDetails,Enclosure,Doors,Door,Area"
+        }
+    },
+    "floor_header_r_value": {
+        "units": {
+            "unit_type": "thermal_resistance",
+            "h2k_units": "RSI",
+            "hpxml_units": "R"
+        },
+        "decimals": 4,
+        "address": {
+            "h2k": "Construction,Type,@rValue",
+            "hpxml": "HPXML,Building,BuildingDetails,Enclosure,RimJoists,RimJoist,Insulation,AssemblyEffectiveRValue"
+        }
+    },
+    "floor_header_height": {
+        "units": {
+            "unit_type": "length",
+            "h2k_units": "m",
+            "hpxml_units": "ft"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "Measurements,@height",
+            "hpxml": "~HPXML,Building,BuildingDetails,Enclosure,RimJoists,RimJoist,Area"
+        }
+    },
+    "floor_header_perimeter": {
+        "units": {
+            "unit_type": "length",
+            "h2k_units": "m",
+            "hpxml_units": "ft"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "Measurements,@perimeter",
+            "hpxml": "~HPXML,Building,BuildingDetails,Enclosure,RimJoists,RimJoist,Area"
+        }
+    },
+    "window_r_value": {
+        "units": {
+            "unit_type": "thermal_resistance",
+            "h2k_units": "RSI",
+            "hpxml_units": "R"
+        },
+        "decimals": 4,
+        "address": {
+            "h2k": "Construction,Type,@rValue",
+            "hpxml": "HPXML,Building,BuildingDetails,Enclosure,Windows,Window,UFactor"
+        }
+    },
+    "window_shgc": {
+        "decimals": 4,
+        "address": {
+            "h2k": "@shgc",
+            "hpxml": "HPXML,Building,BuildingDetails,Enclosure,Windows,Window,SHGC"
+        }
+    },
+    "window_height": {
+        "units": {
+            "unit_type": "length",
+            "h2k_units": "mm",
+            "hpxml_units": "ft"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "Measurements,@height",
+            "hpxml": "~HPXML,Building,BuildingDetails,Enclosure,Windows,Window,Area"
+        }
+    },
+    "window_width": {
+        "units": {
+            "unit_type": "length",
+            "h2k_units": "mm",
+            "hpxml_units": "ft"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "Measurements,@width",
+            "hpxml": "~HPXML,Building,BuildingDetails,Enclosure,Windows,Window,Area"
+        }
+    },
+    "window_header_height": {
+        "units": {
+            "unit_type": "length",
+            "h2k_units": "m",
+            "hpxml_units": "ft"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "Measurements,@headerHeight",
+            "hpxml": "~HPXML,Building,BuildingDetails,Enclosure,Windows,Window,Area"
+        }
+    },
+    "window_overhang_width": {
+        "units": {
+            "unit_type": "length",
+            "h2k_units": "m",
+            "hpxml_units": "ft"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "Measurements,@overhangWidth",
+            "hpxml": "~HPXML,Building,BuildingDetails,Enclosure,Windows,Window,Area"
+        }
+    },
+    "window_count": {
+        "decimals": 0,
+        "address": {
+            "h2k": "@number",
+            "hpxml": "~HPXML,Building,BuildingDetails,Enclosure,Windows,Window"
+        }
+    },
+    "roof_absorptance": {
+        "decimals": 2,
+        "address": {
+            "h2k": "HouseFile,House,Specifications,RoofColour,@value",
+            "hpxml": "HPXML,Building,BuildingDetails,Enclosure,Roofs,Roof,SolarAbsorptance"
+        }
+    },
+    "roof_pitch_value": {
+        "decimals": 3,
+        "address": {
+            "h2k": "Measurements,Slope,@value",
+            "hpxml": "HPXML,Building,BuildingDetails,Enclosure,Roofs,Roof,Pitch"
+        }
+    },
+    "ceiling_area": {
+        "units": {
+            "unit_type": "area",
+            "h2k_units": "m2",
+            "hpxml_units": "ft2"
+        },
+        "decimals": 4,
+        "address": {
+            "h2k": "Measurements,@area",
+            "hpxml": "HPXML,Building,BuildingDetails,Enclosure,Roofs,Roof,Area"
+        }
+    },
+    "ceiling_length": {
+        "units": {
+            "unit_type": "length",
+            "h2k_units": "m",
+            "hpxml_units": "ft"
+        },
+        "decimals": 4,
+        "address": {
+            "h2k": "Measurements,@length",
+            "hpxml": "~HPXML,Building,BuildingDetails,Enclosure,Roofs,Roof,Area"
+        }
+    },
+    "ceiling_r_value": {
+        "units": {
+            "unit_type": "thermal_resistance",
+            "h2k_units": "RSI",
+            "hpxml_units": "R"
+        },
+        "decimals": 4,
+        "address": {
+            "h2k": "Construction,CeilingType,@rValue",
+            "hpxml": "HPXML,Building,BuildingDetails,Enclosure,Floors,Floor,Insulation,AssemblyEffectiveRValue"
+        }
+    },
+    "sloped_roof_sheathing_r_value": {
+        "units": {
+            "unit_type": "thermal_resistance",
+            "h2k_units": "RSI",
+            "hpxml_units": "R"
+        },
+        "decimals": 4,
+        "address": {
+            "h2k": "SlopedRoof,SheatingMaterial,@value",
+            "hpxml": "HPXML,Building,BuildingDetails,Enclosure,Roofs,Roof,Insulation,AssemblyEffectiveRValue"
+        }
+    },
+    "sloped_roof_material_r_value": {
+        "units": {
+            "unit_type": "thermal_resistance",
+            "h2k_units": "RSI",
+            "hpxml_units": "R"
+        },
+        "decimals": 4,
+        "address": {
+            "h2k": "SlopedRoof,RoofingMaterial,@value",
+            "hpxml": "HPXML,Building,BuildingDetails,Enclosure,Roofs,Roof,Insulation,AssemblyEffectiveRValue"
+        }
+    },
+    "gable_ends_sheathing_r_value": {
+        "units": {
+            "unit_type": "thermal_resistance",
+            "h2k_units": "RSI",
+            "hpxml_units": "R"
+        },
+        "decimals": 4,
+        "address": {
+            "h2k": "GableEnds,SheatingMaterial,@value",
+            "hpxml": "HPXML,Building,BuildingDetails,Enclosure,Walls,Wall,Insulation,AssemblyEffectiveRValue"
+        }
+    },
+    "gable_ends_exterior_r_value": {
+        "units": {
+            "unit_type": "thermal_resistance",
+            "h2k_units": "RSI",
+            "hpxml_units": "R"
+        },
+        "decimals": 4,
+        "address": {
+            "h2k": "GableEnds,ExteriorMaterial,@value",
+            "hpxml": "HPXML,Building,BuildingDetails,Enclosure,Walls,Wall,Insulation,AssemblyEffectiveRValue"
+        }
+    },
+    "foundation_floor_area": {
+        "units": {
+            "unit_type": "area",
+            "h2k_units": "m2",
+            "hpxml_units": "ft2"
+        },
+        "decimals": 4,
+        "address": {
+            "h2k": "Floor,Measurements,@area",
+            "hpxml": "HPXML,Building,BuildingDetails,Enclosure,Slabs,Slab,Area"
+        }
+    },
+    "foundation_perimeter": {
+        "units": {
+            "unit_type": "length",
+            "h2k_units": "m",
+            "hpxml_units": "ft"
+        },
+        "decimals": 4,
+        "address": {
+            "h2k": "Floor,Measurements,@perimeter",
+            "hpxml": "~HPXML,Building,BuildingDetails,Enclosure,Slabs,Slab,Area"
+        }
+    },
+    "foundation_exp_perimeter": {
+        "units": {
+            "unit_type": "length",
+            "h2k_units": "m",
+            "hpxml_units": "ft"
+        },
+        "decimals": 4,
+        "address": {
+            "h2k": "@exposedSurfacePerimeter",
+            "hpxml": "~HPXML,Building,BuildingDetails,Enclosure,Slabs,Slab,Area"
+        }
+    },
+    "foundation_width": {
+        "units": {
+            "unit_type": "length",
+            "h2k_units": "m",
+            "hpxml_units": "ft"
+        },
+        "decimals": 4,
+        "address": {
+            "h2k": "Floor,Measurements,@width",
+            "hpxml": "~HPXML,Building,BuildingDetails,Enclosure,Slabs,Slab,Area"
+        }
+    },
+    "foundation_length": {
+        "units": {
+            "unit_type": "length",
+            "h2k_units": "m",
+            "hpxml_units": "ft"
+        },
+        "decimals": 4,
+        "address": {
+            "h2k": "Floor,Measurements,@length",
+            "hpxml": "~HPXML,Building,BuildingDetails,Enclosure,Slabs,Slab,Area"
+        }
+    },
+    "foundation_height": {
+        "units": {
+            "unit_type": "length",
+            "h2k_units": "m",
+            "hpxml_units": "ft"
+        },
+        "decimals": 4,
+        "address": {
+            "h2k": "Wall,Measurements,@height",
+            "hpxml": "~HPXML,Building,BuildingDetails,Enclosure,FoundationWalls,FoundationWall,Height"
+        }
+    },
+    "foundation_depth": {
+        "units": {
+            "unit_type": "length",
+            "h2k_units": "m",
+            "hpxml_units": "ft"
+        },
+        "decimals": 4,
+        "address": {
+            "h2k": "Wall,Measurements,@depth",
+            "hpxml": "~HPXML,Building,BuildingDetails,Enclosure,FoundationWalls,FoundationWall,DepthBelowGrade"
+        }
+    },
+    "pony_wall_height": {
+        "units": {
+            "unit_type": "length",
+            "h2k_units": "m",
+            "hpxml_units": "ft"
+        },
+        "decimals": 4,
+        "address": {
+            "h2k": "Wall,Measurements,@ponyWallHeight",
+            "hpxml": "~HPXML,Building,BuildingDetails,Enclosure,Walls,Wall,Area"
+        }
+    },
+    "composite_nom_r_value": {
+        "units": {
+            "unit_type": "thermal_resistance",
+            "h2k_units": "RSI",
+            "hpxml_units": "R"
+        },
+        "decimals": 4,
+        "address": {
+            "h2k": "@nominalInsulation",
+            "hpxml": "HPXML,Building,BuildingDetails,Enclosure,FoundationWalls,FoundationWall,Insulation,AssemblyEffectiveRValue"
+        }
+    },
+    "slab_r_value": {
+        "units": {
+            "unit_type": "thermal_resistance",
+            "h2k_units": "RSI",
+            "hpxml_units": "R"
+        },
+        "decimals": 4,
+        "address": {
+            "h2k": "Floor,Construction,AddedToSlab,@rValue",
+            "hpxml": "HPXML,Building,BuildingDetails,Enclosure,Slabs,Slab,UnderSlabInsulation,Layer,NominalRValue"
+        }
+    },
+    "slab_skirt_r_value": {
+        "units": {
+            "unit_type": "thermal_resistance",
+            "h2k_units": "RSI",
+            "hpxml_units": "R"
+        },
+        "decimals": 4,
+        "address": {
+            "h2k": "Wall,RValues,@skirt",
+            "hpxml": "HPXML,Building,BuildingDetails,Enclosure,Slabs,Slab,UnderSlabInsulation,Layer,NominalRValue"
+        }
+    },
+    "floors_above_foundation_rval": {
+        "units": {
+            "unit_type": "thermal_resistance",
+            "h2k_units": "RSI",
+            "hpxml_units": "R"
+        },
+        "decimals": 4,
+        "address": {
+            "h2k": "Floor,Construction,FloorsAbove,@rValue",
+            "hpxml": "HPXML,Building,BuildingDetails,Enclosure,Floors,Floor,Insulation,AssemblyEffectiveRValue"
+        }
+    },
+    "dryer_exhaust_flowrate": {
+        "units": {
+            "unit_type": "airFlow",
+            "h2k_units": "L/s",
+            "hpxml_units": "cfm"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "HouseFile,House,Ventilation,SupplementalVentilatorList,Dryer,@exhaustFlowrate",
+            "hpxml": "HPXML,Building,BuildingDetails,Appliances,ClothesDryer,VentedFlowRate"
+        }
+    },
+    "baseboard_capacity": {
+        "units": {
+            "unit_type": "power",
+            "h2k_units": "kW",
+            "hpxml_units": "BTU/h"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "Specifications,OutputCapacity,@value",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,HVAC,HVACPlant,HeatingSystem,HeatingCapacity"
+        }
+    },
+    "baseboard_sizing_factor": {
+        "decimals": 2,
+        "address": {
+            "h2k": "Specifications,@sizingFactor",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,HVAC,HVACPlant,HeatingSystem,extension,HeatingAutosizingFactor"
+        }
+    },
+    "baseboard_efficiency": {
+        "units": {
+            "unit_type": "fraction",
+            "h2k_units": "%",
+            "hpxml_units": "fraction"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "Specifications,@efficiency",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,HVAC,HVACPlant,HeatingSystem,AnnualHeatingEfficiency,Value"
+        }
+    },
+    "furnace_capacity": {
+        "units": {
+            "unit_type": "power",
+            "h2k_units": "kW",
+            "hpxml_units": "BTU/h"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "Specifications,OutputCapacity,@value",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,HVAC,HVACPlant,HeatingSystem,HeatingCapacity"
+        }
+    },
+    "furnace_sizing_factor": {
+        "decimals": 2,
+        "address": {
+            "h2k": "Specifications,@sizingFactor",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,HVAC,HVACPlant,HeatingSystem,extension,HeatingAutosizingFactor"
+        }
+    },
+    "furnace_efficiency": {
+        "units": {
+            "unit_type": "fraction",
+            "h2k_units": "%",
+            "hpxml_units": "fraction"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "Specifications,@efficiency",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,HVAC,HVACPlant,HeatingSystem,AnnualHeatingEfficiency,Value"
+        }
+    },
+    "furnace_pilot_light": {
+        "units": {
+            "unit_type": "daily_energy",
+            "h2k_units": "MJ/day",
+            "hpxml_units": "BTU/h"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "Specifications,@pilotLight",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,HVAC,HVACPlant,HeatingSystem,Furnace,extension,PilotLightBtuh"
+        }
+    },
+    "furnace_flue_diameter": {
+        "units": {
+            "unit_type": "length",
+            "h2k_units": "mm",
+            "hpxml_units": "in"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "Specifications,@flueDiameter",
+            "hpxml": "HPXML,Building,BuildingDetails,Enclosure,AirInfiltration,extension,HasFlueOrChimneyInConditionedSpace"
+        }
+    },
+    "ac_sizing_factor": {
+        "decimals": 2,
+        "address": {
+            "h2k": "Specifications,@sizingFactor",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,HVAC,HVACPlant,CoolingSystem,extension,CoolingAutosizingFactor"
+        }
+    },
+    "ac_cooling_efficiency": {
+        "address": {
+            "h2k": "Specifications,Efficiency,@value",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,HVAC,HVACPlant,CoolingSystem,AnnualCoolingEfficiency"
+        },
+        "units": {
+            "unit_type": "fraction",
+            "h2k_units": "fraction",
+            "hpxml_units": "fraction"
+        },
+        "decimals": 2,
+        "default": 0
+    },
+    "ac_capacity": {
+        "units": {
+            "unit_type": "power",
+            "h2k_units": "kW",
+            "hpxml_units": "BTU/h"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "Specifications,RatedCapacity,@value",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,HVAC,HVACPlant,CoolingSystem,HeatingCapacity"
+        }
+    },
+    "setpoint_heating_day": {
+        "units": {
+            "unit_type": "temperature",
+            "h2k_units": "C",
+            "hpxml_units": "F"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "HouseFile,House,Temperatures,MainFloors,@daytimeHeatingSetPoint",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,HVAC,HVACControl,SetpointTempHeatingSeason"
+        }
+    },
+    "setpoint_cooling_day": {
+        "units": {
+            "unit_type": "temperature",
+            "h2k_units": "C",
+            "hpxml_units": "F"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "HouseFile,House,Temperatures,MainFloors,@coolingSetPoint",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,HVAC,HVACControl,SetpointTempCoolingSeason"
+        }
+    },
+    "setpoint_heating_night": {
+        "units": {
+            "unit_type": "temperature",
+            "h2k_units": "C",
+            "hpxml_units": "F"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "HouseFile,House,Temperatures,MainFloors,@nighttimeHeatingSetPoint",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,HVAC,HVACControl,SetbackTempHeatingSeason"
+        }
+    },
+    "setback_heating_duration": {
+        "decimals": 0,
+        "address": {
+            "h2k": "HouseFile,House,Temperatures,MainFloors,@nighttimeSetbackDuration",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,HVAC,HVACControl,TotalSetbackHoursperWeekHeating"
+        }
+    },
+    "water_faucet_flow_rate": {
+        "address": {
+            "h2k": "HouseFile,House,BaseLoads,WaterUsage,BathroomFaucets,@value",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,WaterHeating,WaterFixture,FlowRate"
+        },
+        "units": {
+            "unit_type": "liquid_flow_rate",
+            "h2k_units": "L/min",
+            "hpxml_units": "gpm_us"
+        },
+        "decimals": 2,
+        "default": 2.2
+    },
+    "shower_head_flow_rate": {
+        "address": {
+            "h2k": "HouseFile,House,BaseLoads,WaterUsage,Shower,FlowRate,@value",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,WaterHeating,WaterFixture,FlowRate"
+        },
+        "units": {
+            "unit_type": "liquid_flow_rate",
+            "h2k_units": "L/min",
+            "hpxml_units": "gpm_us"
+        },
+        "decimals": 2,
+        "default": 2.5
+    },
+    "total_daily_hot_water": {
+        "address": {
+            "h2k": "HouseFile,House,BaseLoads,Summary,@hotWaterLoad",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,WaterHeating,WaterFixture,extention,WaterFixtureUsageMultiplier"
+        },
+        "units": {
+            "unit_type": "volume",
+            "h2k_units": "L",
+            "hpxml_units": "gal_us"
+        },
+        "decimals": 2,
+        "default": 190
+    },
+    "hot_water_tank_volume": {
+        "address": {
+            "h2k": "TankVolume,@value",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,WaterHeating,WaterHeatingSystem,TankVolume"
+        },
+        "units": {
+            "unit_type": "volume",
+            "h2k_units": "L",
+            "hpxml_units": "gal_us"
+        },
+        "decimals": 1,
+        "default": 50
+    },
+    "combo_tank_volume": {
+        "address": {
+            "h2k": "ComboTankAndPump,TankCapacity,@value",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,WaterHeating,WaterHeatingSystem,TankVolume"
+        },
+        "units": {
+            "unit_type": "volume",
+            "h2k_units": "L",
+            "hpxml_units": "gal_us"
+        },
+        "decimals": 1,
+        "default": 50
+    },
+    "hot_water_load_fraction": {
+        "address": {
+            "h2k": "@fraction",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,WaterHeating,WaterHeatingSystem,FractionDHWLoadServed"
+        },
+        "units": {
+            "unit_type": "fraction",
+            "h2k_units": "fraction",
+            "hpxml_units": "fraction"
+        },
+        "decimals": 2,
+        "default": 1
+    },
+    "hot_water_heating_capacity": {
+        "address": {
+            "h2k": "EnergyFactor,@inputCapacity",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,WaterHeating,WaterHeatingSystem,HeatingCapacity"
+        },
+        "units": {
+            "unit_type": "power",
+            "h2k_units": "W",
+            "hpxml_units": "BTU/h"
+        },
+        "decimals": 2,
+        "default": 0
+    },
+    "hot_water_energy_factor": {
+        "address": {
+            "h2k": "EnergyFactor,@value",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,WaterHeating,WaterHeatingSystem,EnergyFactor"
+        },
+        "units": {
+            "unit_type": "fraction",
+            "h2k_units": "fraction",
+            "hpxml_units": "fraction"
+        },
+        "decimals": 4,
+        "default": 0.9
+    },
+    "hot_water_heat_pump_cop": {
+        "address": {
+            "h2k": "@heatPumpCoefficient",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,WaterHeating,WaterHeatingSystem,EnergyFactor"
+        },
+        "units": {
+            "unit_type": "fraction",
+            "h2k_units": "fraction",
+            "hpxml_units": "fraction"
+        },
+        "decimals": 2,
+        "default": 0
+    },
+    "hot_water_flue_diameter": {
+        "address": {
+            "h2k": "@flueDiameter",
+            "hpxml": "HPXML,Building,BuildingDetails,Enclosure,AirInfiltration,extension,HasFlueOrChimneyInConditionedSpace"
+        },
+        "units": {
+            "unit_type": "length",
+            "h2k_units": "mm",
+            "hpxml_units": "in"
+        },
+        "decimals": 2,
+        "default": 0
+    },
+    "hot_water_temperature": {
+        "address": {
+            "h2k": "HouseFile,House,BaseLoads,WaterUsage,@temperature",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,WaterHeating,WaterHeatingSystem,HotWaterTemperature"
+        },
+        "units": {
+            "unit_type": "temperature",
+            "h2k_units": "C",
+            "hpxml_units": "F"
+        },
+        "decimals": 1,
+        "default": 125
+    },
+    "hot_water_temperature_adv_uspec": {
+        "address": {
+            "h2k": "HouseFile,House,BaseLoads,AdvancedUserSpecified,@hotWaterTemperature",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,WaterHeating,WaterHeatingSystem,HotWaterTemperature"
+        },
+        "units": {
+            "unit_type": "temperature",
+            "h2k_units": "C",
+            "hpxml_units": "F"
+        },
+        "decimals": 1,
+        "default": 125
+    },
+    "heat_pump_heating_efficiency": {
+        "address": {
+            "h2k": "Specifications,HeatingEfficiency,@value",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,HVAC,HVACPlant,HeatPump,AnnualHeatingEfficiency"
+        },
+        "units": {
+            "unit_type": "fraction",
+            "h2k_units": "fraction",
+            "hpxml_units": "fraction"
+        },
+        "decimals": 2,
+        "default": 0
+    },
+    "heat_pump_cooling_efficiency": {
+        "address": {
+            "h2k": "Specifications,CoolingEfficiency,@value",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,HVAC,HVACPlant,HeatPump,AnnualCoolingEfficiency"
+        },
+        "units": {
+            "unit_type": "fraction",
+            "h2k_units": "fraction",
+            "hpxml_units": "fraction"
+        },
+        "decimals": 2,
+        "default": 0
+    },
+    "heat_pump_capacity": {
+        "units": {
+            "unit_type": "power",
+            "h2k_units": "kW",
+            "hpxml_units": "BTU/h"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "Specifications,OutputCapacity,@value",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,HVAC,HVACPlant,HeatPump,HeatingCapacity"
+        }
+    },
+    "heat_pump_switchover_temp": {
+        "units": {
+            "unit_type": "temperature",
+            "h2k_units": "C",
+            "hpxml_units": "F"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "Temperature,CutoffType,@value",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,HVAC,HVACPlant,HeatPump,BackupHeatingSwitchoverTemperature"
+        }
+    },
+    "cooling_sensible_heat_fraction": {
+        "decimals": 2,
+        "address": {
+            "h2k": "CoolingParameters,@sensibleHeatRatio",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,HVAC,HVACPlant,HeatPump,CoolingSensibleHeatFraction"
+        }
+        
+    },
+    "dwhr_efficiency": {
+        "units": {
+            "unit_type": "fraction",
+            "h2k_units": "%",
+            "hpxml_units": "fraction"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "@effectivenessAt9.5",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,WaterHeating,HotWaterDistribution,DrainWaterHeatRecovery,Efficiency"
+        }
+    },
+    "p9_heating_capacity": {
+        "units": {
+            "unit_type": "power",
+            "h2k_units": "W",
+            "hpxml_units": "BTU/h"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "@spaceHeatingCapacity",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,HVAC,HVACPlant,HeatingSystem,HeatingCapacity"
+        }
+    },
+    "p9_tpf": {
+        "units": {
+            "unit_type": "fraction",
+            "h2k_units": "fraction",
+            "hpxml_units": "fraction"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "@thermalPerformanceFactor",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,HVAC,HVACPlant,HeatingSystem,AnnualHeatingEfficiency"
+        }
+    },
+    "p9_composite_heating_eff": {
+        "units": {
+            "unit_type": "fraction",
+            "h2k_units": "%",
+            "hpxml_units": "fraction"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "@spaceHeatingEfficiency",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,HVAC,HVACPlant,HeatingSystem,AnnualHeatingEfficiency"
+        }
+    },
+    "p9_water_heating_performance_factor": {
+        "units": {
+            "unit_type": "fraction",
+            "h2k_units": "fraction",
+            "hpxml_units": "fraction"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "@waterHeatingPerformanceFactor",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,WaterHeating,WaterHeatingSystem,EnergyFactor"
+        }
+    },
+    "suppl_heating_pilot_light": {
+        "units": {
+            "unit_type": "daily_energy",
+            "h2k_units": "MJ/day",
+            "hpxml_units": "BTU/h"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "Specifications,@pilotLight",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,HVAC,HVACPlant,HeatingSystem,Furnace,extension,PilotLightBtuh"
+        }
+    },
+    "suppl_heating_capacity": {
+        "units": {
+            "unit_type": "power",
+            "h2k_units": "kW",
+            "hpxml_units": "BTU/h"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "Specifications,OutputCapacity,@value",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,HVAC,HVACPlant,HeatingSystem,HeatingCapacity"
+        }
+    },
+    "suppl_heating_efficiency": {
+        "units": {
+            "unit_type": "fraction",
+            "h2k_units": "%",
+            "hpxml_units": "fraction"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "Specifications,@efficiency",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,HVAC,HVACPlant,HeatingSystem,AnnualHeatingEfficiency,Value"
+        }
+    },
+    "suppl_heating_flue_diameter": {
+        "units": {
+            "unit_type": "length",
+            "h2k_units": "mm",
+            "hpxml_units": "in"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "Specifications,Flue,@diameter",
+            "hpxml": "HPXML,Building,BuildingDetails,Enclosure,AirInfiltration,extension,HasFlueOrChimneyInConditionedSpace"
+        }
+    },
+    "suppl_heating_area_heated": {
+        "units": {
+            "unit_type": "area",
+            "h2k_units": "m2",
+            "hpxml_units": "ft2"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "Specifications,LocationHeated,@value",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,HVAC,HVACPlant,HeatingSystem,extension,FractionHeatLoadServed"
+        }
+    },
+    "additional_opening_flue_diameter": {
+        "units": {
+            "unit_type": "length",
+            "h2k_units": "mm",
+            "hpxml_units": "in"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "@flueDiameter",
+            "hpxml": "HPXML,Building,BuildingDetails,Enclosure,AirInfiltration,extension,HasFlueOrChimneyInConditionedSpace"
+        }
+    },
+    "whole_house_vent_schedule": {
+        "units": {
+            "unit_type": "time",
+            "h2k_units": "min",
+            "hpxml_units": "h"
+        },
+        "decimals": 1,
+        "address": {
+            "h2k": "HouseFile,House,Ventilation,WholeHouse,OperationSchedule,@value",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,MechanicalVentilation,VentilationFans,VentilationFan,HoursInOperation"
+        }
+    },
+    "ventilator_exhaust_flowrate": {
+        "units": {
+            "unit_type": "airFlow",
+            "h2k_units": "L/s",
+            "hpxml_units": "cfm"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "@exhaustFlowrate",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,MechanicalVentilation,VentilationFans,VentilationFan,RatedFlowRate"
+        }
+    },
+    "ventilator_supply_flowrate": {
+        "units": {
+            "unit_type": "airFlow",
+            "h2k_units": "L/s",
+            "hpxml_units": "cfm"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "@supplyFlowrate",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,MechanicalVentilation,VentilationFans,VentilationFan,RatedFlowRate"
+        }
+    },
+    "ventilator_fan_power": {
+        "units": {
+            "unit_type": "power",
+            "h2k_units": "W",
+            "hpxml_units": "W"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "@fanPower1",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,MechanicalVentilation,VentilationFans,VentilationFan,FanPower"
+        }
+    },
+    "hrv_efficiency": {
+        "units": {
+            "unit_type": "fraction",
+            "h2k_units": "%",
+            "hpxml_units": "fraction"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "@efficiency1",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,MechanicalVentilation,VentilationFans,VentilationFan,SensibleRecoveryEfficiency"
+        }
+    },
+    "supplemental_vent_schedule": {
+        "units": {
+            "unit_type": "time",
+            "h2k_units": "min",
+            "hpxml_units": "h"
+        },
+        "decimals": 1,
+        "address": {
+            "h2k": "OperationSchedule,@value",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,MechanicalVentilation,VentilationFans,VentilationFan,HoursInOperation"
+        }
+    },
+    "ventilation_requirement_achnat": {
+        "decimals": 4,
+        "address": {
+            "h2k": "HouseFile,House,Ventilation,Requirements,@ach",
+            "hpxml": "HPXML,Building,BuildingDetails,Enclosure,AirInfiltration,AirInfiltrationMeasurement,BuildingAirLeakage,AirLeakage"
+        }
+    },
+    "pv_inverter_efficiency": {
+        "units": {
+            "unit_type": "fraction",
+            "h2k_units": "%",
+            "hpxml_units": "fraction"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "Efficiency,@inverterEfficiency",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,Photovoltaics,Inverter,InverterEfficiency"
+        }
+    },
+    "pv_module_efficiency": {
+        "units": {
+            "unit_type": "fraction",
+            "h2k_units": "%",
+            "hpxml_units": "fraction"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "Module,@efficiency",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,Photovoltaics,PVSystem,MaxPowerOutput"
+        }
+    },
+    "pv_array_tilt": {
+        "units": {
+            "unit_type": "fraction",
+            "h2k_units": "fraction",
+            "hpxml_units": "fraction"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "Array,@slope",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,Photovoltaics,PVSystem,ArrayAzimuth"
+        }
+    },
+    "pv_array_azimuth": {
+        "units": {
+            "unit_type": "fraction",
+            "h2k_units": "fraction",
+            "hpxml_units": "fraction"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "Array,@azimuth",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,Photovoltaics,PVSystem,ArrayAzimuth"
+        }
+    },
+    "pv_array_area": {
+        "units": {
+            "unit_type": "area",
+            "h2k_units": "m2",
+            "hpxml_units": "m2"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "Array,@area",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,Photovoltaics,PVSystem,MaxPowerOutput"
+        }
+    },
+    "pv_array_misc_losses": {
+        "units": {
+            "unit_type": "fraction",
+            "h2k_units": "%",
+            "hpxml_units": "fraction"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "Efficiency,@miscellaneousLosses",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,Photovoltaics,PVSystem,SystemLossesFraction"
+        }
+    },
+    "pv_array_other_losses": {
+        "units": {
+            "unit_type": "fraction",
+            "h2k_units": "%",
+            "hpxml_units": "fraction"
+        },
+        "decimals": 2,
+        "address": {
+            "h2k": "Efficiency,@otherPowerLosses",
+            "hpxml": "HPXML,Building,BuildingDetails,Systems,Photovoltaics,PVSystem,SystemLossesFraction"
+        }
+    }
+}

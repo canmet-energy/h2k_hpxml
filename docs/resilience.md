@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Resilience CLI tool (`bin/resilience.py`) analyzes building resilience by creating four scenarios that examine clothing factors and HVAC performance during power outages and extreme weather conditions. The tool converts H2K files to OpenStudio models and generates comprehensive resilience analysis outputs.
+The Resilience CLI tool (`src/h2k_hpxml/cli/resilience.py`) analyzes building resilience by creating four scenarios that examine clothing factors and HVAC performance during power outages and extreme weather conditions. The tool converts H2K files to OpenStudio models and generates comprehensive resilience analysis outputs.
 
 ## Prerequisites
 
@@ -20,30 +20,30 @@ The tool will automatically validate these dependencies and exit with clear erro
 
 ```bash
 # Analyze a single H2K file (creates models only)
-python bin/resilience.py path/to/your/file.h2k
+python src/h2k_hpxml/cli/resilience.py path/to/your/file.h2k
 
 # Specify custom output location
-python bin/resilience.py path/to/your/file.h2k --output-path /custom/output/directory
+python src/h2k_hpxml/cli/resilience.py path/to/your/file.h2k --output-path /custom/output/directory
 
 # Run with full simulations
-python bin/resilience.py path/to/your/file.h2k --run-simulation
+python src/h2k_hpxml/cli/resilience.py path/to/your/file.h2k --run-simulation
 ```
 
 ### Example Usage
 
 ```bash
 # Basic analysis of example file
-python bin/resilience.py examples/WizardHouse.h2k --output-path examples
+python src/h2k_hpxml/cli/resilience.py examples/WizardHouse.h2k --output-path examples
 
 # Custom analysis with 14-day outage and different clothing factors
-python bin/resilience.py examples/WizardHouse.h2k \
+python src/h2k_hpxml/cli/resilience.py examples/WizardHouse.h2k \
   --output-path examples \
   --outage-days 14 \
   --clothing-factor-summer 0.3 \
   --clothing-factor-winter 1.2
 
 # Full analysis with simulations
-python bin/resilience.py examples/WizardHouse.h2k \
+python src/h2k_hpxml/cli/resilience.py examples/WizardHouse.h2k \
   --output-path examples \
   --run-simulation
 ```
@@ -117,7 +117,7 @@ The tool generates four resilience scenarios:
 
 ```bash
 # Step 1: Basic validation and model creation
-python bin/resilience.py examples/WizardHouse.h2k --output-path examples
+python src/h2k_hpxml/cli/resilience.py examples/WizardHouse.h2k --output-path examples
 # Output: ✓ OpenStudio-HPXML validated at: /OpenStudio-HPXML/
 # Output: Resilience analysis completed successfully!
 
@@ -128,7 +128,7 @@ ls examples/WizardHouse/
 #         thermal_autonomy_typical_year/ thermal_autonomy_extreme_year/
 
 # Step 3: Run with simulations for full analysis
-python bin/resilience.py examples/WizardHouse.h2k --output-path examples --run-simulation
+python src/h2k_hpxml/cli/resilience.py examples/WizardHouse.h2k --output-path examples --run-simulation
 # Output: [Full simulation execution with validation]
 ```
 
@@ -193,20 +193,20 @@ Clothing insulation factors affect thermal comfort calculations:
 
 ```bash
 # Light summer clothing, heavy winter clothing
-python bin/resilience.py file.h2k --clothing-factor-summer 0.3 --clothing-factor-winter 1.5
+python src/h2k_hpxml/cli/resilience.py file.h2k --clothing-factor-summer 0.3 --clothing-factor-winter 1.5
 
 # Business attire year-round
-python bin/resilience.py file.h2k --clothing-factor-summer 0.7 --clothing-factor-winter 1.0
+python src/h2k_hpxml/cli/resilience.py file.h2k --clothing-factor-summer 0.7 --clothing-factor-winter 1.0
 ```
 
 ### Extended Outage Analysis
 
 ```bash
 # Analyze longer outages (up to 365 days)
-python bin/resilience.py file.h2k --outage-days 30
+python src/h2k_hpxml/cli/resilience.py file.h2k --outage-days 30
 
 # Analyze short-term outages
-python bin/resilience.py file.h2k --outage-days 1
+python src/h2k_hpxml/cli/resilience.py file.h2k --outage-days 1
 ```
 
 ### Batch Processing
@@ -214,7 +214,7 @@ python bin/resilience.py file.h2k --outage-days 1
 ```bash
 # Process multiple files
 for file in *.h2k; do
-    python bin/resilience.py "$file" --output-path results/
+    python src/h2k_hpxml/cli/resilience.py "$file" --output-path results/
 done
 ```
 
@@ -230,7 +230,7 @@ After running the resilience analysis:
 
 ## Getting Help
 
-- Use `python bin/resilience.py --help` for command-line help
+- Use `python src/h2k_hpxml/cli/resilience.py --help` for command-line help
 - Check the main documentation in `/resilience.md` for detailed technical information
 - Review log files in scenario folders for simulation details
 - Validate OpenStudio-HPXML installation if conversion fails

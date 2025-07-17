@@ -1,0 +1,114 @@
+{
+    "total_annual_consumption": {
+        "hpxml": "Energy Use: Total (MBtu)",
+        "h2k": "Annual,Consumption,@total",
+        "units": {
+            "h2k": "GJ",
+            "hpxml": "MBtu"
+        }
+    },
+    "total_annual_electricity": {
+        "hpxml": "Fuel Use: Electricity: Total (MBtu)",
+        "h2k": "Annual,Consumption,Electrical,@total",
+        "units": {
+            "h2k": "GJ",
+            "hpxml": "MBtu"
+        }
+    },
+    "total_annual_natural_gas": {
+        "hpxml": "Fuel Use: Natural Gas: Total (MBtu)",
+        "h2k": "Annual,Consumption,NaturalGas,@total",
+        "units": {
+            "h2k": "GJ",
+            "hpxml": "MBtu"
+        }
+    },
+    "total_annual_oil": {
+        "hpxml": "Fuel Use: Fuel Oil: Total (MBtu)",
+        "h2k": "Annual,Consumption,Oil,@total",
+        "units": {
+            "h2k": "GJ",
+            "hpxml": "MBtu"
+        }
+    },
+    "total_annual_propane": {
+        "hpxml": "Fuel Use: Propane: Total (MBtu)",
+        "h2k": "Annual,Consumption,Propane,@total",
+        "units": {
+            "h2k": "GJ",
+            "hpxml": "MBtu"
+        }
+    },
+    "total_annual_wood_cord": {
+        "hpxml": "Fuel Use: Wood Cord: Total (MBtu)",
+        "h2k": "Annual,Consumption,Wood,@total",
+        "units": {
+            "h2k": "GJ",
+            "hpxml": "MBtu"
+        }
+    },
+    "total_annual_wood_pellets": {
+        "hpxml": "Fuel Use: Wood Pellets: Total (MBtu)",
+        "h2k": "Annual,Consumption,Wood,@total",
+        "units": {
+            "h2k": "GJ",
+            "hpxml": "MBtu"
+        }
+    },
+    "total_heating_electricity": {
+        "hpxml": "System Use: HeatingSystem1: Electricity: Heating (MBtu)",
+        "h2k": "Annual,Consumption,Electrical,@spaceHeating",
+        "units": {
+            "h2k": "GJ",
+            "hpxml": "MBtu"
+        }
+    },
+    "total_cooling_electricity": {
+        "hpxml": "System Use: HeatingSystem1: Electricity: Cooling (MBtu)",
+        "h2k": "Annual,Consumption,Electrical,@spaceCooling",
+        "units": {
+            "h2k": "GJ",
+            "hpxml": "MBtu"
+        }
+    },
+    "heating_sys_energy_delivered": {
+        "hpxml": "Load: Heating: Delivered (MBtu)",
+        "h2k": "Annual,Load,@auxiliaryEnergy",
+        "units": {
+            "h2k": "MJ",
+            "hpxml": "MBtu"
+        }
+    },
+    "cooling_sys_energy_delivered": {
+        "hpxml": "Load: Cooling: Delivered (MBtu)",
+        "h2k": "N/A",
+        "units": {
+            "h2k": "MJ",
+            "hpxml": "MBtu"
+        }
+    },
+    "peak_heating_load": {
+        "hpxml": "HVAC Design Load: Heating: Total (Btu/h)",
+        "h2k": "Other,@designHeatLossRate",
+        "units": {
+            "h2k": "Btu/h",
+            "hpxml": "W"
+        }
+    },
+    "peak_cooling_load_sensible": {
+        "hpxml": "HVAC Design Load: Cooling Sensible: Total (Btu/h)",
+        "h2k": "Other,@designCoolLossRate",
+        "units": {
+            "h2k": "Btu/h",
+            "hpxml": "W"
+        }
+    },
+    "peak_cooling_load_latent": {
+        "hpxml": "HVAC Design Load: Cooling Latent: Total (Btu/h)",
+        "h2k": "Other,@designCoolLossRate",
+        "units": {
+            "h2k": "Btu/h",
+            "hpxml": "W"
+        }
+    }
+}

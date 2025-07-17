@@ -1,0 +1,308 @@
+  403   13   32Wth2020.Dat
+BRITISH COLUMBIA                ALBERTA                         SASKATCHEWAN                    
+MANITOBA                        ONTARIO                         QUÉBEC                          
+NEW BRUNSWICK                   NOVA SCOTIA                     PRINCE EDWARD ISLAND            
+NEWFOUNDLAND AND LABRADOR       YUKON                           NORTHWEST TERRITORIES             
+NUNAVUT
+    2    2    2    2    2    2    2    2    2    2    2    2    2    2    2
+    2    2    2    2    2    2    2    2    2    2    2    2    2    2    2
+    2    2    2    2    2    2    2    2    2    2    2    2    2    1    1
+    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+    4    4    4    4    4    4    4    4    4    4    4    4    4    4    4
+    4    4    4    4    4    4    4    4    4    4    4    4    4    4    4
+    4    7    7    7    7    7    7    7    7   10   10   10   10   10   10
+   10   10   10   10   10   10   10   10   10   10   10   10    8    8    8
+    8    8    8    8    8    8    8   12   12   12   12   12   12   12   12
+   12   12   12   12   12   12   12   12   12   12   12   12   12   12   12
+   12   12   12   12   12   12   12   13   13   13   13   13   13   13   13
+   13   13   13   13   13   13   13   13   13   13   13   13   13   13   13
+   13   13   13   13   13   13   13   13   13   13   13   13    5    5    5
+    5    5    5    5    5    5    5    5    5    5    5    5    5    5    5
+    5    5    5    5    5    5    5    5    5    5    5    5    5    5    5
+    5    5    5    5    5    5    5    5    5    9    9    9    9    6    6
+    6    6    6    6    6    6    6    6    6    6    6    6    6    6    6
+    6    6    6    6    6    6    6    6    6    6    6    6    6    6    6
+    6    6    6    6    6    6    6    6    6    6    6    6    6    6    6
+    6    6    6    6    6    6    6    6    6    6    6    6    6    6    6
+    6    6    6    6    6    3    3    3    3    3    3    3    3    3    3
+    3    3    3    3    3    3    3    3    3    3    3    3    3    3    3
+    3    3    3    3    3    3    3    3    3    3    3    3    3    3    3
+   11   11   11   11   11   11   11   11   11   11   11   11   11
+BANFF                           BOW ISLAND                      BOW VALLEY                      
+BROOKS                          CALGARY INTL                    CAMROSE                         
+CARDSTON                        CLARESHOLM                      COLD LAKE                       
+COP UPPER                       CORONATION CLIMATE              CROWSNEST                       
+DRUMHELLER EAST                 EDMONTON INTL                   EDSON CLIMATE                   
+ELK ISLAND                      ESTHER                          FORT MCMURRAY                   
+FORT VERMILION                  GARDEN RIVER                    GRANDE PRAIRIE                  
+HIGH LEVEL                      JASPER WARDEN                   LAC LA BICHE CLIMATE            
+LACOMBE                         LETHBRIDGE                      LLOYDMINSTER                    
+MEDICINE HAT                    MILDRED LAKE                    MILK RIVER                      
+ONEFOUR                         PEACE RIVER                     PINCHER CREEK                   
+RED DEER REGIONAL               ROCKY MTN HOUSE                 SLAVE LAKE                      
+STAVELY                         SUNDRE                          THREE HILLS                     
+VAUXHALL                        VEGREVILLE                      WAINWRIGHT                      
+WATERTON PARK GATE              ABBOTSFORD                      AGASSIZ                         
+BLUE RIVER                      BONILLA ISLAND                  BURNS LAKE                      
+CAPE ST JAMES                   CATHEDRAL POINT                 COMOX                           
+CRANBROOK                       CRESTON CAMPBELL SCIENTIFIC     CUMSHEWA ISLAND                 
+DAWSON CREEK                    DEASE LAKE                      ENTRANCE ISLAND                 
+ESQUIMALT HARBOUR               ESTEVAN POINT                   FORT NELSON                     
+FORT ST JOHN                    GREY ISLET                      HERBERT ISLAND                  
+HOWE SOUND - PAM ROCKS          KAMLOOPS                        KELOWNA                         
+KINDAKUN ROCKS                  LILLOOET                        LYTTON                          
+MACKENZIE                       MALAHAT                         NAKUSP                          
+NELSON                          OSOYOOS                         PEMBERTON AIRPORT               
+PENTICTON                       PITT MEADOWS                    POINT ATKINSON                  
+PORT HARDY                      PRINCE GEORGE                   PRINCE RUPERT                   
+PRINCETON                       PUNTZI MOUNTAIN                 QUESNEL                         
+REVELSTOKE                      ROSE SPIT                       SALMON ARM                      
+SANDSPIT                        SARTINE ISLAND                  SHERINGHAM POINT                
+SISTERS ISLAND                  SMITHERS                        SQUAMISH AIRPORT                
+SUMMERLAND                      TERRACE                         VANCOUVER INTL                  
+VERNON                          VICTORIA GONZALES               VICTORIA INTL                   
+VICTORIA UNIVERSITY             WEST VANCOUVER                  WHISTLER - NESTERS              
+WHITE ROCK                      WILLIAMS LAKE                   YOHO PARK                       
+BRANDON                         CARBERRY                        CARMAN U OF M                   
+CHURCHILL                       DAUPHIN                         EMERSON                         
+FISHER BRANCH                   FLIN FLON                       GILLAM                          
+GIMLI CLIMATE                   GRAND RAPIDS                    GRETNA                          
+ISLAND LAKE                     LYNN LAKE                       MCCREARY                        
+MELITA                          NORWAY HOUSE                    OAKPOINT MARINE                 
+PILOT MOUND                     PINAWA                          PORTAGE SOUTHPORT               
+ROBLIN                          SHOAL LAKE                      SPRAGUE                         
+SWAN RIVER                      TADOULE LAKE                    THE PAS                         
+THOMPSON                        VICTORIA BEACH                  WASAGAMING                      
+WINNIPEG INTL                   BAS CARAQUET                    BATHURST                        
+FREDERICTON                     MISCOU ISLAND                   MONCTON INTL                    
+POINT LEPREAU                   SAINT JOHN                      ST-STEPHEN                     
+BADGER                          BONAVISTA                       BURGEO                          
+CARTWRIGHT                      CHURCHILL FALLS                 CORNER BROOK                    
+DANIELS HARBOUR                 DEER LAKE                       GANDER INTL                     
+GOOSE                           LA SCIE                         MARY'S HARBOUR                  
+ST-LAWRENCE                     ST-JOHN'S INTL                  STEPHENVILLE                    
+TWILLINGATE                     WABUSH                          WRECKHOUSE                      
+BRIER ISLAND                    GRAND ETANG                     GREENWOOD                       
+HALIFAX INTL                    KEJIMKUJIK                      SABLE ISLAND                    
+SHEARWATER                      SYDNEY                          WESTERN HEAD                    
+YARMOUTH                        DEADMEN VALLEY                  DELINE                          
+FORT GOOD HOPE                  FORT LIARD                      FORT PROVIDENCE                 
+FORT RELIANCE                   FORT SIMPSON                    FORT SMITH                      
+HAY RIVER                       HOLMAN                          INNER WHALEBACKS                
+INUVIK                          KEATS POINT                     LAC LA MARTRE                   
+LINDBURG LANDING                LITTLE CHICAGO                  LIVERPOOL BAY                   
+LOWER CARP LAKE                 LUTSELK'E                       MOULD BAY                       
+NORMAN WELLS                    PAULATUK                        PELLY ISLAND                    
+RABBIT KETTLE                   SACHS HARBOUR CLIMATE           STORM HILLS                     
+TRAIL VALLEY                    TUKTOYAKTUK                     YELLOWKNIFE                     
+YOHIN                           ALERT CLIMATE                   ARCTIC BAY                      
+ARVIAT CLIMATE                  BAKER LAKE                      BREVOORT ISLAND                 
+BROUGHTON ISLAND                CAMBRIDGE BAY                   CAPE DORSET CLIMATE             
+CAPE DYER                       CAPE HOOPER                     CAPE MERCY                      
+CLYDE RIVER CLIMATE             CORAL HARBOUR                   DEWAR LAKES                     
+ENNADAI LAKE                    EUREKA                          GJOA HAVEN CLIMATE              
+HALL BEACH                      HAT ISLAND                      IQALUIT                         
+ISACHSEN                        KUGAARUK CLIMATE                KUGLUKTUK                       
+LONGSTAFF BLUFF                 LUPIN                           PANGNIRTUNG                     
+POND INLET                      QIKIQTARJUAQ CLIMATE            RANKIN INLET                    
+REA POINT                       RESOLUTE BAY                    RESOLUTION ISLAND               
+ROWLEY ISLAND                   SHEPHERD BAY                    TALOYOAK                        
+ARMSTRONG                       ATIKOKAN                        BANCROFT                        
+BIG TROUT LAKE                  BURLINGTON PIERS                COBOURG                         
+COLLINGWOOD                     ERIEAU                          GERALDTON                       
+GODERICH                        GORE BAY CLIMATE                KAPUSKASING                     
+KENORA                          KILLARNEY                       LAGOON CITY                     
+LANSDOWNE HOUSE                 LONDON                          MOOSONEE                        
+MOUNT FOREST                    MUSKOKA                         NAGAGAMI                        
+NORTH BAY                       OTTAWA INTL                     PEAWANUCK                       
+PETERBOROUGH                    PICKLE LAKE                     POINT PETRE                     
+PORT WELLER                     PUKASKWA                        SAULT STE MARIE                 
+SIOUX LOOKOUT                   SUDBURY                         THUNDER BAY                     
+TIMMINS                         TORONTO BUTTONVILLE             TORONTO CITY CENTRE             
+TORONTO INTL                    TRENTON                         UPSALA                          
+WAWA                            WIARTON                         WINDSOR                         
+CHARLOTTETOWN                   EAST POINT                      NORTH CAPE                      
+SUMMERSIDE                      AMQUI                           BAGOTVILLE                      
+BAIE-COMEAU                     BAIE-COMEAU A                   BARRAGE TEMISCAMINGUE           
+BEAUCEVILLE                     BONNARD                         CAP-D'ESPOIR                    
+CAP-MADELEINE                   CAP-ROUGE                       CAP-TOURMENTE                   
+CHAMOUCHOUANE                   CHARLEVOIX                      CHEVERY                         
+CHUTE-DES-PASSES                DESCHAMBAULT                    FRELIGHSBURG                    
+GASPÉ                           HAVRE ST-PIERRE                 ÎLE AUX PERROQUETS              
+ÎLE ROUGE                       ÎLES DE LA MADELEINE            INUKJUAK                        
+JONQUIÈRE                       KUUJJUAQ                        KUUJJUARAPIK                    
+LA BAIE                         LA POCATIÈRE                    LA TUQUE                        
+LAC BENOIT                      LAC EON                         L'ACADIE                        
+L'ASSOMPTION                    LENNOXVILLE                     L'ÉTAPE                         
+LONGUE-POINTE-DE-MINGAN         LOURDES DE BLANC SABLON         MANIWAKI AIRPORT                
+MANOUANE                        MATAGAMI                        MCTAVISH                        
+MONT JOLI                       MONTRÉAL INTL                   MONTRÉAL MIRABEL  INTL          
+MONTRÉAL-ST-HUBERT              NATASHQUAN                      NEW CARLISLE                    
+NICOLET                         NORMANDIN                       POINTE CLAVEAU                  
+POINTE DE L'ISLET               POINTE NOIRE                    POINTE-AU-PÈRE                  
+POINTE-DES-MONTS                QUÉBEC INTL                     RIVIERE-DU-LOUP                 
+ROBERVAL                        ROUYN                           ROUYN-NORANDA                   
+SCHEFFERVILLE                   SEPT-ÎLES                       ST-ANICET                       
+STE-ANNE-DE-BELLEVUE            STE-CLOTHILDE                   STE-FOY                         
+ST-JOVITE                       VAL-D'OR                        ASSINIBOIA AIRPORT              
+BROADVIEW                       COLLINS BAY                     CORONACH                        
+CYPRESS HILLS PARK              EASTEND CYPRESS                 ELBOW                           
+ESTEVAN                         HUDSON BAY                      INDIAN HEAD                     
+KEY LAKE                        KINDERSLEY                      LA RONGE                        
+LAST MOUNTAIN                   LEADER AIRPORT                  LUCKY LAKE                      
+MAPLE CREEK                     MELFORT                         MOOSE JAW                       
+NIPAWIN                         NORTH BATTLEFORD                OUTLOOK                         
+PRINCE ALBERT                   REGINA INTL                     ROCKGLEN                        
+ROSETOWN EAST                   SASKATOON INTL                  SCOTT                           
+SOUTHEND                        SPIRITWOOD WEST                 STONY RAPIDS                    
+SWIFT CURRENT                   SWIFT CURRENT CDA               URANIUM CITY                    
+VAL MARIE SOUTHEAST             WASKESIU LAKE                   WATROUS EAST                    
+WEYBURN                         WYNYARD                         YORKTON                         
+BURWASH                         CARMACKS                        DAWSON                          
+FARO                            HAINES JUNCTION                 HERSCHEL ISLAND                 
+IVVAVIK NAT. PARK               MACMILLAN PASS                  MAYO                            
+OLD CROW                        TESLIN                          WATSON LAKE                     
+WHITEHORSE
+COLOMBIE-BRITANNIQUE            ALBERTA                         SASKATCHEWAN        
+MANITOBA                        ONTARIO                         QUÉBEC              
+NOUVEAU-BRUNSWICK               NOUVELLE-ÉCOSSE                 ÎLE-DU-PRINCE-ÉDOUARD
+TERRE-NEUVE-ET-LABRADOR         YUKON                           TERRITOIRES DU NORD-OUEST
+NUNAVUT
+BANFF                           BOW ISLAND                      BOW VALLEY                      
+BROOKS                          CALGARY INTL                    CAMROSE                         
+CARDSTON                        CLARESHOLM                      COLD LAKE                       
+COP UPPER                       CORONATION CLIMATE              CROWSNEST                       
+DRUMHELLER EAST                 EDMONTON INTL                   EDSON CLIMATE                   
+ELK ISLAND                      ESTHER                          FORT MCMURRAY                   
+FORT VERMILION                  GARDEN RIVER                    GRANDE PRAIRIE                  
+HIGH LEVEL                      JASPER WARDEN                   LAC LA BICHE CLIMATE            
+LACOMBE                         LETHBRIDGE                      LLOYDMINSTER                    
+MEDICINE HAT                    MILDRED LAKE                    MILK RIVER                      
+ONEFOUR                         PEACE RIVER                     PINCHER CREEK                   
+RED DEER REGIONAL               ROCKY MTN HOUSE                 SLAVE LAKE                      
+STAVELY                         SUNDRE                          THREE HILLS                     
+VAUXHALL                        VEGREVILLE                      WAINWRIGHT                      
+WATERTON PARK GATE              ABBOTSFORD                      AGASSIZ                         
+BLUE RIVER                      BONILLA ISLAND                  BURNS LAKE                      
+CAPE ST JAMES                   CATHEDRAL POINT                 COMOX                           
+CRANBROOK                       CRESTON CAMPBELL SCIENTIFIC     CUMSHEWA ISLAND                 
+DAWSON CREEK                    DEASE LAKE                      ENTRANCE ISLAND                 
+ESQUIMALT HARBOUR               ESTEVAN POINT                   FORT NELSON                     
+FORT ST JOHN                    GREY ISLET                      HERBERT ISLAND                  
+HOWE SOUND - PAM ROCKS          KAMLOOPS                        KELOWNA                         
+KINDAKUN ROCKS                  LILLOOET                        LYTTON                          
+MACKENZIE                       MALAHAT                         NAKUSP                          
+NELSON                          OSOYOOS                         PEMBERTON AIRPORT               
+PENTICTON                       PITT MEADOWS                    POINT ATKINSON                  
+PORT HARDY                      PRINCE GEORGE                   PRINCE RUPERT                   
+PRINCETON                       PUNTZI MOUNTAIN                 QUESNEL                         
+REVELSTOKE                      ROSE SPIT                       SALMON ARM                      
+SANDSPIT                        SARTINE ISLAND                  SHERINGHAM POINT                
+SISTERS ISLAND                  SMITHERS                        SQUAMISH AIRPORT                
+SUMMERLAND                      TERRACE                         VANCOUVER INTL                  
+VERNON                          VICTORIA GONZALES               VICTORIA INTL                   
+VICTORIA UNIVERSITY             WEST VANCOUVER                  WHISTLER - NESTERS              
+WHITE ROCK                      WILLIAMS LAKE                   YOHO PARK                       
+BRANDON                         CARBERRY                        CARMAN U OF M                   
+CHURCHILL                       DAUPHIN                         EMERSON                         
+FISHER BRANCH                   FLIN FLON                       GILLAM                          
+GIMLI CLIMATE                   GRAND RAPIDS                    GRETNA                          
+ISLAND LAKE                     LYNN LAKE                       MCCREARY                        
+MELITA                          NORWAY HOUSE                    OAKPOINT MARINE                 
+PILOT MOUND                     PINAWA                          PORTAGE SOUTHPORT               
+ROBLIN                          SHOAL LAKE                      SPRAGUE                         
+SWAN RIVER                      TADOULE LAKE                    THE PAS                         
+THOMPSON                        VICTORIA BEACH                  WASAGAMING                      
+WINNIPEG INTL                   BAS CARAQUET                    BATHURST                        
+FREDERICTON                     MISCOU ISLAND                   MONCTON INTL                    
+POINT LEPREAU                   SAINT JOHN                      ST-STEPHEN                     
+BADGER                          BONAVISTA                       BURGEO                          
+CARTWRIGHT                      CHURCHILL FALLS                 CORNER BROOK                    
+DANIELS HARBOUR                 DEER LAKE                       GANDER INTL                     
+GOOSE                           LA SCIE                         MARY'S HARBOUR                  
+ST-LAWRENCE                     ST-JOHN'S INTL                  STEPHENVILLE                    
+TWILLINGATE                     WABUSH                          WRECKHOUSE                      
+BRIER ISLAND                    GRAND ETANG                     GREENWOOD                       
+HALIFAX INTL                    KEJIMKUJIK                      SABLE ISLAND                    
+SHEARWATER                      SYDNEY                          WESTERN HEAD                    
+YARMOUTH                        DEADMEN VALLEY                  DELINE                          
+FORT GOOD HOPE                  FORT LIARD                      FORT PROVIDENCE                 
+FORT RELIANCE                   FORT SIMPSON                    FORT SMITH                      
+HAY RIVER                       HOLMAN                          INNER WHALEBACKS                
+INUVIK                          KEATS POINT                     LAC LA MARTRE                   
+LINDBURG LANDING                LITTLE CHICAGO                  LIVERPOOL BAY                   
+LOWER CARP LAKE                 LUTSELK'E                       MOULD BAY                       
+NORMAN WELLS                    PAULATUK                        PELLY ISLAND                    
+RABBIT KETTLE                   SACHS HARBOUR CLIMATE           STORM HILLS                     
+TRAIL VALLEY                    TUKTOYAKTUK                     YELLOWKNIFE                     
+YOHIN                           ALERT CLIMATE                   ARCTIC BAY                      
+ARVIAT CLIMATE                  BAKER LAKE                      BREVOORT ISLAND                 
+BROUGHTON ISLAND                CAMBRIDGE BAY                   CAPE DORSET CLIMATE             
+CAPE DYER                       CAPE HOOPER                     CAPE MERCY                      
+CLYDE RIVER CLIMATE             CORAL HARBOUR                   DEWAR LAKES                     
+ENNADAI LAKE                    EUREKA                          GJOA HAVEN CLIMATE              
+HALL BEACH                      HAT ISLAND                      IQALUIT                         
+ISACHSEN                        KUGAARUK CLIMATE                KUGLUKTUK                       
+LONGSTAFF BLUFF                 LUPIN                           PANGNIRTUNG                     
+POND INLET                      QIKIQTARJUAQ CLIMATE            RANKIN INLET                    
+REA POINT                       RESOLUTE BAY                    RESOLUTION ISLAND               
+ROWLEY ISLAND                   SHEPHERD BAY                    TALOYOAK                        
+ARMSTRONG                       ATIKOKAN                        BANCROFT                        
+BIG TROUT LAKE                  BURLINGTON PIERS                COBOURG                         
+COLLINGWOOD                     ERIEAU                          GERALDTON                       
+GODERICH                        GORE BAY CLIMATE                KAPUSKASING                     
+KENORA                          KILLARNEY                       LAGOON CITY                     
+LANSDOWNE HOUSE                 LONDON                          MOOSONEE                        
+MOUNT FOREST                    MUSKOKA                         NAGAGAMI                        
+NORTH BAY                       OTTAWA INTL                     PEAWANUCK                       
+PETERBOROUGH                    PICKLE LAKE                     POINT PETRE                     
+PORT WELLER                     PUKASKWA                        SAULT STE MARIE                 
+SIOUX LOOKOUT                   SUDBURY                         THUNDER BAY                     
+TIMMINS                         TORONTO BUTTONVILLE             TORONTO CITY CENTRE             
+TORONTO INTL                    TRENTON                         UPSALA                          
+WAWA                            WIARTON                         WINDSOR                         
+CHARLOTTETOWN                   EAST POINT                      NORTH CAPE                      
+SUMMERSIDE                      AMQUI                           BAGOTVILLE                      
+BAIE-COMEAU                     BAIE-COMEAU A                   BARRAGE TEMISCAMINGUE           
+BEAUCEVILLE                     BONNARD                         CAP-D'ESPOIR                    
+CAP-MADELEINE                   CAP-ROUGE                       CAP-TOURMENTE                   
+CHAMOUCHOUANE                   CHARLEVOIX                      CHEVERY                         
+CHUTE-DES-PASSES                DESCHAMBAULT                    FRELIGHSBURG                    
+GASPÉ                           HAVRE ST-PIERRE                 ÎLE AUX PERROQUETS              
+ÎLE ROUGE                       ÎLES DE LA MADELEINE            INUKJUAK                        
+JONQUIÈRE                       KUUJJUAQ                        KUUJJUARAPIK                    
+LA BAIE                         LA POCATIÈRE                    LA TUQUE                        
+LAC BENOIT                      LAC EON                         L'ACADIE                        
+L'ASSOMPTION                    LENNOXVILLE                     L'ÉTAPE                         
+LONGUE-POINTE-DE-MINGAN         LOURDES DE BLANC SABLON         MANIWAKI AIRPORT                
+MANOUANE                        MATAGAMI                        MCTAVISH                        
+MONT JOLI                       MONTRÉAL INTL                   MONTRÉAL MIRABEL  INTL          
+MONTRÉAL-ST-HUBERT              NATASHQUAN                      NEW CARLISLE                    
+NICOLET                         NORMANDIN                       POINTE CLAVEAU                  
+POINTE DE L'ISLET               POINTE NOIRE                    POINTE-AU-PÈRE                  
+POINTE-DES-MONTS                QUÉBEC INTL                     RIVIERE-DU-LOUP                 
+ROBERVAL                        ROUYN                           ROUYN-NORANDA                   
+SCHEFFERVILLE                   SEPT-ÎLES                       ST-ANICET                       
+STE-ANNE-DE-BELLEVUE            STE-CLOTHILDE                   STE-FOY                         
+ST-JOVITE                       VAL-D'OR                        ASSINIBOIA AIRPORT              
+BROADVIEW                       COLLINS BAY                     CORONACH                        
+CYPRESS HILLS PARK              EASTEND CYPRESS                 ELBOW                           
+ESTEVAN                         HUDSON BAY                      INDIAN HEAD                     
+KEY LAKE                        KINDERSLEY                      LA RONGE                        
+LAST MOUNTAIN                   LEADER AIRPORT                  LUCKY LAKE                      
+MAPLE CREEK                     MELFORT                         MOOSE JAW                       
+NIPAWIN                         NORTH BATTLEFORD                OUTLOOK                         
+PRINCE ALBERT                   REGINA INTL                     ROCKGLEN                        
+ROSETOWN EAST                   SASKATOON INTL                  SCOTT                           
+SOUTHEND                        SPIRITWOOD WEST                 STONY RAPIDS                    
+SWIFT CURRENT                   SWIFT CURRENT CDA               URANIUM CITY                    
+VAL MARIE SOUTHEAST             WASKESIU LAKE                   WATROUS EAST                    
+WEYBURN                         WYNYARD                         YORKTON                         
+BURWASH                         CARMACKS                        DAWSON                          
+FARO                            HAINES JUNCTION                 HERSCHEL ISLAND                 
+IVVAVIK NAT. PARK               MACMILLAN PASS                  MAYO                            
+OLD CROW                        TESLIN                          WATSON LAKE                     
+WHITEHORSE   
