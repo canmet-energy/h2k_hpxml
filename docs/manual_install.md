@@ -22,6 +22,6 @@ This file can also be used to define non-h2k parameters for the translation proc
 
 # Running the translator
 1. Ensure the virtual environment is activated (run `.\.venv\Scripts\Activate.ps1`) and the required packages are installed (`pip install -r .\requirements.txt`)
-2. Run main.py (`py main.py`) to translate a single file or a directory of files based on the `source_h2k_path` specified in conversionconfig.ini
+2. Run the CLI tool (`h2k2hpxml run`) to translate and simulate H2K files with full options, or use `python scripts/compare.py` for legacy config-based batch processing
 3. Run run.py (`py run.py`) to run an hpxml file through the HPXML-OS workflow
 4. Run simulateh2k.py (`py simulateh2k.py`) to translate a file and simulate it using the HPXML-OS workflow

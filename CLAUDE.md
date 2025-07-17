@@ -15,7 +15,7 @@ This is the H2K to HPXML to EnergyPlus initiative project, which translates Cana
 - `pytest --run-baseline` - Run baseline generation tests (WARNING: overwrites golden files)
 
 ### Translation and Simulation
-- `python main.py` - Run H2K to HPXML translation using conversionconfig.ini
+- `h2k2hpxml run` - Run H2K to HPXML translation and simulation workflow
 - `python run.py` - Run OpenStudio-HPXML simulation workflow
 - `python src/h2k_hpxml/cli/h2k2hpxml.py <h2k_file>` - CLI tool for H2K to HPXML conversion
 - `python src/h2k_hpxml/cli/resilience.py <h2k_file> [options]` - Resilience analysis tool
