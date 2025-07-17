@@ -62,13 +62,13 @@ CI=true pytest tests/integration/test_generate_baseline.py --run-baseline -v -s
 ### Cleaning Test Data
 ```bash
 # Clean all test data
-python clean_test_data.py
+python scripts/clean_test_data.py
 
 # Clean only for baseline generation (preserves existing baselines)
-python clean_test_data.py --baseline-only
+python scripts/clean_test_data.py --baseline-only
 
 # Preview what would be cleaned
-python clean_test_data.py --dry-run
+python scripts/clean_test_data.py --dry-run
 ```
 
 ## Test Data Structure
@@ -88,7 +88,7 @@ tests/
 1. **Run all tests**: `pytest`
 2. **Ensure tests pass**: All tests must pass or be updated for new features
 3. **Update baselines if needed**: Only when output format changes intentionally
-4. **Clean test data**: Use `python clean_test_data.py` for fresh runs
+4. **Clean test data**: Use `python scripts/clean_test_data.py` for fresh runs
 
 ### When Output Changes
 1. **Verify changes are intentional**: Review differences carefully
@@ -116,7 +116,7 @@ pytest -v                                          # Verbose output
 pytest -m "not baseline_generation"                # Skip baseline generation
 pytest tests/integration/test_regression.py -v -s  # Regression test (recommended)
 CI=true pytest --run-baseline -v -s                # Generate new baselines
-python clean_test_data.py                          # Clean test data
+python scripts/clean_test_data.py                          # Clean test data
 ```
 
 ## Notes
