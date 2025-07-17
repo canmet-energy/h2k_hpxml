@@ -163,11 +163,13 @@ cython_debug/
 tests/files
 examples/output
 h2k_files
-# Weather files
+# Weather files (downloaded automatically)
 *_CWEC2020.zip*
+*.zip.lock
 
-# Ignore all .epw files in the h2ktohpxml/resources/weather directory
+# Ignore all .epw files in weather directories
 h2ktohpxml/resources/weather/*.epw
+src/h2k_hpxml/utils/*.epw
 
 # Ignore baseline backup directories
 tests/fixtures/expected_outputs/golden_files/baseline_backup*
